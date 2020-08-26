@@ -11,8 +11,25 @@
   .slide .faktai {
     width: 50%; } }
 
+/* .slide .content h1 {
+  margin-bottom: 10px;
+} */
+/* @media (max-width: 500px) {
+  .slide .content {
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.slide.current .content {
+    transform: translate(-300px);
+  }
+} */
+/* =========================================================== */
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -43,7 +60,7 @@ body {
     color: #333;
     padding: 30px; }
   .slide:first-child {
-    background: url("./sunsRytas1.jpg") no-repeat center center/cover; }
+    background: url("./img/sunsRytas1.jpg") no-repeat center center/cover; }
   .slide:nth-child(2) {
     background: url("./img/suo10.jpg") no-repeat center top/cover; }
   .slide:nth-child(3) {

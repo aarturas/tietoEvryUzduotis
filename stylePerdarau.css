@@ -2,9 +2,10 @@
 
 @import '_mobile.scss';
 
-
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -162,4 +163,10 @@ button#prev {
 img {
   display: block;
   width: 100%;
+}
+
+@media (max-width: 400px) {
+  .faktai {
+    width: 60%;
+  }
 }
