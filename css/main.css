@@ -1,8 +1,12 @@
 @import 'https://fonts:googleapis.com/css?family=Roboto';
-/* .slide .content h1 {
-  margin-bottom: 10px;
-} */
-/* =========================================================== */
+@media (max-width: 500px) {
+  .slide .content {
+    bottom: -300px;
+    left: 10%;
+    width: 100%; }
+  .slide.slide.current .content {
+    transform: translate(-300px); } }
+
 * {
   box-sizing: border-box; }
 
@@ -33,7 +37,7 @@ body {
     color: #333;
     padding: 30px; }
   .slide:first-child {
-    background: url("./img/sunsRytas1.jpg") no-repeat center center/cover; }
+    background: url("./sunsRytas1.jpg") no-repeat center center/cover; }
   .slide:nth-child(2) {
     background: url("./img/suo10.jpg") no-repeat center top/cover; }
   .slide:nth-child(3) {
@@ -95,11 +99,3 @@ button#prev {
 img {
   display: block;
   width: 100%; }
-
-@media (max-width: 500px) {
-  .slide .content {
-    bottom: -300px;
-    left: 0;
-    width: 100%; }
-  .slide.slide.current .content {
-    transform: translate(-300px); } }

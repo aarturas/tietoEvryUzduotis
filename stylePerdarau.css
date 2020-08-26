@@ -78,7 +78,7 @@ button#prev {
   color: #333;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .slide .content {
     bottom: -300px;
     left: 0;
@@ -88,7 +88,7 @@ button#prev {
   .slide.slide.current .content {
     transform: translate(-300px);
   }
-}
+} */
 
 .slide:first-child {
   background: url('./img/sunsRytas1.jpg') no-repeat center center/cover;

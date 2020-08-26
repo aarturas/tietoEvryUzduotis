@@ -2,8 +2,10 @@ const slides = document.querySelectorAll('.slide');
 const next = document.querySelector('#next');
 const prev = document.querySelector('#prev');
 
-const auto = true;
-// const auto = false;
+//  Jei norime perjungti į "auto" ....
+
+// const auto = true;
+const auto = false;
 
 const intervalTime = 4000;
 let slideInterval;
@@ -62,6 +64,8 @@ prev.addEventListener('click', (e) => {
   }
 });
 
+// ========================================================
+//  Jei norime padaryti, kad rodytų automatiškai: ...
 // ========================================================
 
 if (auto) {
