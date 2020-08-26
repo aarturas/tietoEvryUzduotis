@@ -1,5 +1,8 @@
 @import url('https://fonts:googleapis.com/css?family=Roboto');
 
+@import '_mobile.scss';
+
+
 * {
   box-sizing: border-box;
 }
