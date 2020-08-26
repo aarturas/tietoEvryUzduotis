@@ -4,10 +4,10 @@ const prev = document.querySelector('#prev');
 
 //  Jei norime perjungti į "auto" ....
 
-// const auto = true;
-const auto = false;
+const auto = true;
+// const auto = false;
 
-const intervalTime = 4000;
+const intervalTime = 5000;
 let slideInterval;
 
 // ========================================================

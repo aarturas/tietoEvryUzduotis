@@ -1,7 +1,5 @@
 @import url('https://fonts:googleapis.com/css?family=Roboto');
 
-@import '_mobile.scss';
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,14 +43,10 @@ body {
   padding: 30px;
 }
 
-/* .slide .content h1 {
-  margin-bottom: 10px;
-} */
-
 .slide.current .content {
   opacity: 1;
   transform: translate(600px);
-  transition: all 0.9s ease-in-out 0.9s;
+  transition: all 1s ease-in-out 0.9s;
   background: transparent;
 }
 
@@ -81,18 +75,6 @@ button#prev {
   background-color: orange;
   color: #333;
 }
-
-/* @media (max-width: 500px) {
-  .slide .content {
-    bottom: -300px;
-    left: 0;
-    width: 100%;
-  }
-
-  .slide.slide.current .content {
-    transform: translate(-300px);
-  }
-} */
 
 .slide:first-child {
   background: url('./img/sunsRytas1.jpg') no-repeat center center/cover;
@@ -168,5 +150,6 @@ img {
 @media (max-width: 400px) {
   .faktai {
     width: 60%;
+    height: 100%;
   }
 }
