@@ -129,7 +129,7 @@ button#prev {
 .slide:nth-child(9) {
   background: url('./img/suo3.jpg') no-repeat center top/cover;
 }
-
+/*                 Šuns maudynės "vonioje"                    */
 .slide:nth-child(10) {
   background: url('./img/suo4.jpg') no-repeat center top/cover;
 }
